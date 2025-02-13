@@ -1,8 +1,9 @@
 #include<stdio.h>
 #define pi 3.14
 int main() {
-    float radius;
+    float radius,area;
     scanf("%f",%radius);
-    printf("Area: %.2f\n",pi * radius * radius);
+    area = pi * radius * radius;
+    printf("Area: %.2f\n",area);
     return 0;
 }
