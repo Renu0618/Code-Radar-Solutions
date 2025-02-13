@@ -1,6 +1,5 @@
 #include<stdio.h>
-int main()
-{
+int main() {
     float radius,Area;
     const float pi = 3.14;
     scanf("%f",%radius);
