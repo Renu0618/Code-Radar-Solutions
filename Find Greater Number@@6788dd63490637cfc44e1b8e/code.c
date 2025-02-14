@@ -6,7 +6,7 @@ int main()
     if ((num1 > num2)) {
         printf("%d",num1);
     } else {
-        printf("%d",num1);
+        printf("%d",num2);
     }
     return 0;
 }
