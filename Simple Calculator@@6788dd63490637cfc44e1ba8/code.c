@@ -22,7 +22,7 @@ int main()
             printf("%d",result);
             break;
         default:
-            printf("invalid operator error");
+            printf("error");
     }
     return 0;
 }
