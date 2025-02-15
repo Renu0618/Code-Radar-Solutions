@@ -18,8 +18,7 @@ int main()
             printf("%d",a/b);
             break;
         default:
-            printf("")
-
+            printf("error");
     }
-
+    return 0;
 }
