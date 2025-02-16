@@ -11,10 +11,8 @@ int main()
         printf("C");
     } else if(n>=60 && n<70) {
         printf("D");
-    } else if(n<60) {
-        printf("F");
     } else {
-        printf("E")
+        printf("F")
     }
     return 0;
 }
