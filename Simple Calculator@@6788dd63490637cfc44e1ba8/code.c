@@ -1,24 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,ch;
-    int add,sub,multi,div;
+    int a,b;
     scanf("%d %d",&a,&b);
-    if(ch==1)
-    {
-        add=a+b;
-        printf("%d",add);
-    } else if (ch==2) {
-        sub=a-b;
-        printf("%d",sub);
-    } else if (ch==3) {
-        multi = a*b;
-        printf("%d",multi);
-    } else if (ch==4) {
-        div = a/b;
-        printf("%d",div);
-    } else {
-        printf("error");
+    char operator;
+    scanf("%c",&operator);
+    if(operator == '+') printf("%d",a+b);
+    else if(operator == '-') printf("%d",a-b);
+    else if(operator == '*') printf("%d",a*b);
+    else if(operator == '/') {
+        if (b == 0) {
+            printf("error");
+        }
+        else if(a == 0 && b == 0) {
+            printf("error");
+        }
+        else {
+            printf("%d",a/b);
+        }
     }
+    else printf("error");
     return 0;
 }
