@@ -6,9 +6,9 @@ int main()
     if(num1==num2) {
         printf("Equal");
     } else if(num1>num2) {
-        printf("First",&num1);
-    } else {
-        printf("Second",&num2);
+        printf("First");
+    } else if {
+        printf("Second");
     }
     return 0;
 }
