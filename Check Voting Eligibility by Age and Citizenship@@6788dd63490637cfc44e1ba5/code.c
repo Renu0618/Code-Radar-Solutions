@@ -1,13 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int age;
-    scanf("%d",&age);
-    switch(age) {
-        case 1:
-            printf("Eligible");
-        default:
-            printf("Not Eligible");
+    int age,citizen status;
+    scanf("%d",&age,&citizen status);
+    if(age>=18 && citizen status == 1) {
+        printf("Eligible");
+    } else {
+        printf("Not Eligible");
     }
     return 0;
 }
