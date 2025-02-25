@@ -6,7 +6,7 @@ int main()
     switch(age) {
         case 1:
             printf("Eligible");
-        default 0:
+        default:
             printf("Not Eligible");
     }
     return 0;
