@@ -8,7 +8,7 @@ int main()
     } else if(num1>num2) {
         printf("First",&num1);
     } else {
-        printf("Second");
+        printf("Second",&num2);
     }
     return 0;
 }
