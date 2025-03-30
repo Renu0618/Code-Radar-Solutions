@@ -1,13 +1,9 @@
-int fibonacciSeries(int N) {
-    int a = 0;
-    int b = 1;
-    for(int i = 0;i<N;i++) {
-        printf("%d ",a);
-        int temp = a;
-        a = b;
-        b = temp;
-        b = a+b;
-    }
+int fibonacciSeries(int n) {
+    int fibonacciSeries1 = fibonacciSeries(n-1);
+    int fibonacciSeries2 = fibonacciSeries(n-2);
+    int fibonacciSeriesN = fibonacciSeries(n-1) + fibonacciSeries(n-2);
+    printf("%d",n,fibonacciSeriesN);
+    return fibonacciSeriesN;
 }
 
 
