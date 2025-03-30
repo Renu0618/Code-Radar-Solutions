@@ -13,8 +13,8 @@ int fibonacciSeries(int n) {
     if(n<=0) {
         return 0;
     }
-    int fibonacciSeries1 = fib(n-1);
-    int fibonacciSeries2 = fib(n-2);
-    int fibonacciSeriesN = fib(n-1) + fib(n-2);
+    int fibonacciSeries1 = fibonacciSeries(n-1);
+    int fibonacciSeries2 = fibonacciSeries(n-2);
+    int fibonacciSeriesN = fibonacciSeries(n-1) + fibonacciSeries(n-2);
     return fibonacciSeriesN;
 }
