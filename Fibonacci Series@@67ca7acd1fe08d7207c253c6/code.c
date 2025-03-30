@@ -7,7 +7,6 @@ int fibonacciSeries(int N) {
         a=b;
         b=c;
         b=a+b;
-        
     }
 }
 
