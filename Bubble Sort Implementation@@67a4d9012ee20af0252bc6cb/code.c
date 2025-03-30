@@ -9,3 +9,8 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
+
+int* sortArray(int arr[], int n) {
+    bubbleSort(arr, n);
+    return arr;
+}
