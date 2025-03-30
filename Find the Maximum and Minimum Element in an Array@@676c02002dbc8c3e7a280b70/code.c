@@ -8,8 +8,8 @@ int main()
     for(int i=0;i<N;i++) {
         scanf("%d",&arr[i]);
     }
-    int max=arr[0];
-    int min=arr[0];
+    int max=arr1[0];
+    int min=arr1[0];
     for(int i=1;i<N;i++) {
         if(arr1[i] > min) {
             min= arr1[i];
