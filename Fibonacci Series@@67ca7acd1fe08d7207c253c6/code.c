@@ -13,8 +13,8 @@ int fib(int n) {
     if(n<=0) {
         return 0;
     }
-    fib1 = fib(n-1);
-    fib2 = fib(n-2);
-    fibN = fib(n-1) + fib(n-2);
+    int fib1 = fib(n-1);
+    int fib2 = fib(n-2);
+    int fibN = fib(n-1) + fib(n-2);
     return N;
 }
