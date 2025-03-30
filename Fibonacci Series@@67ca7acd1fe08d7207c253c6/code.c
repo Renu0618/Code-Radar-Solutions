@@ -10,6 +10,7 @@ int main() {
 }
 int fibonacciSeries(int n) {
     if(n<=0) {
+        printf("Invalid input\n");
         return 0;
     }
     int fibonacciSeries1 = fibonacciSeries(n-1);
@@ -17,3 +18,34 @@ int fibonacciSeries(int n) {
     int fibonacciSeriesN = fibonacciSeries(n-1) + fibonacciSeries(n-2);
     return fibonacciSeriesN;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
