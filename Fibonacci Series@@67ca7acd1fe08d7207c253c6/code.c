@@ -16,5 +16,5 @@ int fib(int n) {
     int fib1 = fib(n-1);
     int fib2 = fib(n-2);
     int fibN = fib(n-1) + fib(n-2);
-    return N;
+    return fibN;
 }
