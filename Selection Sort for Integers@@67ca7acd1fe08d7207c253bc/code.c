@@ -1,19 +1,14 @@
-void selectionSort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        int minIndex = i;
-        for (int j = i + 1; j < n; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
-        }
-        int temp = arr[minIndex];
-        arr[minIndex] = arr[i];
-        arr[i] = temp;
-    }
-}
+#include<stdio.h>
+#include<stdlib.h>
 
-int* sortArray(int arr[], int n) {
-    selectionSort(arr, n);
-    printArray(arr,n);
-    return 0;
+int selectoin sort(int arr, int n){
+    int target = arr[0];
+    for(int i = 0; i<n; i++){  
+        for(int j = 0; )
+        if [arr[i] > target] {
+            arr[i] = target;
+            target
+        }
+
+    }
 }
