@@ -1,15 +1,17 @@
 #include<stdio.h>
-void bubbleSort(str arr[],str n) {
+#include<string.h>
+void bubbleSort(str arr[],int n) {
     for(int i=0;i<n;i++) {
-        for(int j=i+1;j<n;j++) {
-            if(arr[i] > arr[j]) {
-                char temp=arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+        for(int j=0;j<n-i;j++) {
+            if strcmp((arr[i], arr[j])>0) {
+                char temp[100];
+                strcpy(int temp, arr[i]);
+                strcpy(arr[i], arr[j]);
+                strcpy(arr[j], temp);
             }
         }
     }
 }
-void bubbleSort(int arr[], int n) {
-    printf("%s",arr[i]);
+void bubbleSort(str arr[], int n) {
+    printf("%s\n",arr[i]);
 }
