@@ -1,16 +1,13 @@
-void bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+#include<stdio.h>
+void bubble_sort(int arr[], int n){
+    for(int i = 0; i<n; i++){
+        for(int j = i+1; j<n; j++){
+            if(arr[i]> arr[j]){
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
     }
-}
-
-int* sortArray(int arr[], int n) {
-    bubbleSort(arr, n);
-    return arr;
+    printf("%d", arr[i]);
 }
