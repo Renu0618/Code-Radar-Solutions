@@ -3,7 +3,7 @@
 void bubbleSort(str arr[],int n) {
     for(int i=0;i<n;i++) {
         for(int j=0;j<n-i;j++) {
-            if strcmp((arr[i], arr[j])>0) {
+            strcmp((arr[i], arr[j])>0) {
                 char temp[100];
                 strcpy(int temp, arr[i]);
                 strcpy(arr[i], arr[j]);
