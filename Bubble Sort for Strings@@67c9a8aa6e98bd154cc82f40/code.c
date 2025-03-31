@@ -12,6 +12,6 @@ void bubbleSort(char arr[100],int n) {
         }
     }
 }
-void bubbleSort(str arr[], int n) {
+void bubbleSort(char arr[], int n) {
     printf("%s\n",arr[i]);
 }
