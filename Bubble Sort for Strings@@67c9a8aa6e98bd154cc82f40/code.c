@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void bubbleSort(str arr[],int n) {
+void bubbleSort(char arr[],int n) {
     for(int i=0;i<n;i++) {
         for(int j=0;j<n-i;j++) {
             strcmp((arr[i], arr[j])>0) {
